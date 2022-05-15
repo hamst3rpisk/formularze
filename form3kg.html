@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        html,
+        body {
+            background-color: #21B9DB;
+            height: 100%;
+        }
+        
+        .aside1 {
+            width: 30%;
+            height: 78%;
+            float: left;
+            background-color: #1891F2;
+            text-decoration: none;
+            text-align: left;
+            padding-left: 3%;
+            padding-top: 1%;
+        }
+        
+        footer {
+            height: 10%;
+            width: 99%;
+            background-color: #17E89B;
+            clear: both;
+            text-align: left;
+            padding-left: 1%
+        }
+        
+        main {
+            width: 60%;
+            height: 78%;
+            float: left;
+            background-color: #18F2E0;
+            text-align: right;
+            padding-right: 7%;
+            padding-top: 1%;
+        }
+        
+        .upper {
+            background-color: #17E89B;
+            width: 100%;
+            height: 10%;
+            clear: both;
+            text-align: center;
+        }
+        
+        .p1 {
+            text-shadow: 1px 1px 1px purple;
+            font-size: 30px;
+            color: #1891F2
+        }
+        
+        .p2 {
+            font-size: 25px;
+            color: #17E89B;
+        }
+        
+        .p3 {
+            font-size: 20px;
+            color: #17E89B;
+        }
+        
+        .p4 {
+            font-size: 25px;
+            color: #1891F2;
+        }
+        
+        .p5 {
+            margin-left: 7%;
+            margin-top: 1%;
+        }
+        
+        ul {
+            line-height: 2.5;
+        }
+        
+        a {
+            color: #17E89B;
+        }
+        
+        a:hover {
+            color: #18F2E0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="upper">
+        <p class="p1">Formularze</p>
+    </div>
+    <aside class="aside1">
+        <p class="p2">Przeglądaj:</p>
+        <ul>
+            <li class="p3"><a href="formkg.html">Formularz kontaktowy</a> </li>
+            <li class="p3"><a href="form2kg.html">Dziewczęta i chłopcy</a></li>
+            <li class="p3"><a href="index.html">Strona Główna</a></li>
+            <li class="p3"><a href="form4kg.html">Formularz zwrotu produktu</a></li>
+        </ul>
+
+    </aside>
+    <main>
+        <p class="p5">
+            <form method="post" enctype="text/plain" action="">
+                Wybierz owoc:
+                <input type="text" name="przedmiot" value="" list="owoce">
+                <datalist id="owoce">
+		<option value="Ananas">Ananas</option>
+		<option value="Banan">Banan</option>
+		<option value="Cytryna">Cytryna</option>
+		<option value="Tangerine">Tangerine</option>
+	</datalist>
+            </form>
+        </p>
+    </main>
+    <footer>
+        <p class="p1">Krzysztof Gawroński 1ta</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <style>
+        html,
+        body {
+            background-color: #21B9DB;
+            height: 100%;
+        }
+        
+        .aside1 {
+            width: 30%;
+            height: 78%;
+            float: left;
+            background-color: #1891F2;
+            text-decoration: none;
+            text-align: left;
+            padding-left: 3%;
+            padding-top: 1%;
+        }
+        
+        footer {
+            height: 10%;
+            width: 99%;
+            background-color: #17E89B;
+            clear: both;
+            text-align: left;
+            padding-left: 1%
+        }
+        
+        main {
+            width: 60%;
+            height: 78%;
+            float: left;
+            background-color: #18F2E0;
+            text-align: right;
+            padding-right: 7%;
+            padding-top: 1%;
+        }
+        
+        .upper {
+            background-color: #17E89B;
+            width: 100%;
+            height: 10%;
+            clear: both;
+            text-align: center;
+        }
+        
+        .p1 {
+            text-shadow: 1px 1px 1px purple;
+            font-size: 30px;
+            color: #1891F2
+        }
+        
+        .p2 {
+            font-size: 25px;
+            color: #17E89B;
+        }
+        
+        .p3 {
+            font-size: 20px;
+            color: #17E89B;
+        }
+        
+        .p4 {
+            font-size: 25px;
+            color: #1891F2;
+        }
+        
+        .p5 {
+            margin-left: 7%;
+            margin-top: 1%;
+        }
+        
+        ul {
+            line-height: 2.5;
+        }
+        
+        a {
+            color: #17E89B;
+        }
+        
+        a:hover {
+            color: #18F2E0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="upper">
+        <p class="p1">Formularze</p>
+    </div>
+    <aside class="aside1">
+        <p class="p2">Przeglądaj:</p>
+        <ul>
+            <li class="p3"><a href="formkg.html">Formularz kontaktowy</a> </li>
+            <li class="p3"><a href="form2kg.html">Dziewczęta i chłopcy</a></li>
+            <li class="p3"><a href="form3kg.html">Owoce</a></li>
+            <li class="p3"><a href="index.html">Strona Główna</a></li>
+        </ul>
+
+    </aside>
+    <main>
+        <p class="p5">
+            <form>
+                <fieldset width="20%">
+                    <h1>Formularz o zwrot produktu</h1>
+                    <br>Podaj numer seryjny produktu:<br>
+                    <input type="number" name="Numer_produktu" required> <br>
+                    <br>Jak dawno temu go kupiłeś? (w dniach)<br>
+                    <input type="number" name="Ile_temu" required> <br>
+                    <br>Czemu zwracasz produkt? (opcjonalne)<br>
+                    <textarea rows="6" cols="17" name="Czemu_zwrot"></textarea><br>
+                    <br>W jakim stanie jest produkt?<br>
+                    <input type="radio" name="select">Zepsuty<br>
+                    <input type="radio" name="select">Zły<br>
+                    <input type="radio" name="select">Sporo zużyty<br>
+                    <input type="radio" name="select">Trochę zużyty<br>
+                    <input type="radio" name="select">Nienaruszony<br>
+                    <br><br>
+                    <input type="submit" name="submitt" value="Wyślij">
+                    <input type="submit" name="submitt" value="Wyczyść">
+
+                </fieldset>
+
+                </select>
+
+            </form>
+        </p>
+    </main>
+    <footer>
+        <p class="p1">Krzysztof Gawroński 1ta</p>
+    </footer>
+</body>
+
+</html>
